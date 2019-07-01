@@ -16,11 +16,14 @@
 	<link rel="stylesheet" href="lib/css/monokai.css">
 
 	<style>
-		.logo {
+		img {
 			border: 0 !important;
-			width: inherit !important;
 			box-shadow: none !important;
 			background: transparent !important;
+		}
+
+		.logo {
+			width: inherit !important;
 			margin-top: -35px !important; 
 			margin-bottom: -35px !important; 
 		}
@@ -49,6 +52,8 @@
 			</section>
 			<section data-markdown="./slides/description.md">
 			</section>
+			<section data-markdown="./slides/functionalrequirements.md">
+			</section>
 		</div>
 	</div>
 
@@ -59,7 +64,7 @@
 		// - https://github.com/hakimel/reveal.js#configuration
 		// - https://github.com/hakimel/reveal.js#dependencies
 		Reveal.initialize({
-			fragmentInURL: true,
+			hash: true,
 			transition: 'slide',
 			dependencies: [
 				{ src: 'plugin/markdown/marked.js' },
