@@ -1,3 +1,3 @@
 # cardholder
 ## Kartenspiele für jedermann
-Stefan Kröker (der geilste), Patrick Reinke und Marti Stuwe
+Stefan Kröker, Patrick Reinke und Marti Stuwe
