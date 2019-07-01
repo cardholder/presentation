@@ -24,6 +24,10 @@
 			margin-top: -35px !important; 
 			margin-bottom: -35px !important; 
 		}
+
+		ul li ul li {
+			color: #646464;
+		}
 	</style>
 
 	<!-- Printing and PDF exports -->
@@ -43,6 +47,8 @@
 			</section>
 			<section data-markdown="./slides/agenda.md">
 			</section>
+			<section data-markdown="./slides/description.md">
+			</section>
 		</div>
 	</div>
 
@@ -53,6 +59,7 @@
 		// - https://github.com/hakimel/reveal.js#configuration
 		// - https://github.com/hakimel/reveal.js#dependencies
 		Reveal.initialize({
+			fragmentInURL: true,
 			transition: 'slide',
 			dependencies: [
 				{ src: 'plugin/markdown/marked.js' },

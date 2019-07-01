@@ -1,4 +1,4 @@
-# Agenda
+## Agenda
 1. Projektbeschreibung
 2. Funktionale Anforderungen
 3. Softwarearchitektur

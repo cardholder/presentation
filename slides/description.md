@@ -1,0 +1,9 @@
+## Produktbeschreibung
+- Kartenspiel ...
+  - mit Freunden oder Menschen aus aller Welt spielen
+  - ohne Anmeldung spielen
+- Nutzer ...
+  - können andere Nutzer zu einem Spiel einladen
+- Verfügbar als ...
+  - Webseite
+  - App
